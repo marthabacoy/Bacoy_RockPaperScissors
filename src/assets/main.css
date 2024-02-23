@@ -1,35 +1,91 @@
-@import './base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+body
+{
+  background-image: url('src/assets/mainbg.jpg'); 
+  background-color: #ffdde1;
+  background-size: cover; 
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+
+div
+{
+  display: grid;
+  justify-content: center; 
+  align-items: center; 
+  height: 20vh; 
+  margin-top:5px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.custom-button {
+  background-size: cover; 
+  background-position: center;
+  border-radius:200px;
+  border: none; 
+  padding: 60px 60px;
+  margin-right: 10px;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.custom-button:hover 
+{
+  opacity: 0.2; 
 }
+
+.normal-button {
+  border-radius:70px;
+  border: none; 
+  margin: auto;
+  width:20%;
+  padding:10px;
+  font-size: 20px;
+  font-family: Calistoga;
+  background-color: #74342b;
+  text-align: center;
+  color: #ffdde1;
+  
+}
+
+.normal-button:hover 
+{
+  opacity: 0.2; 
+}
+
+h1
+{
+  color:#74342b;
+  font-size: 60px;
+  font-family: Calistoga;
+  text-align: center;
+  margin-bottom: 3px;
+  /**background-color: #ffdde1;
+  border-radius:70px;
+  padding:20px;**/
+}
+
+h2
+{
+  color:#74342b;
+  font-size: 30px;
+  font-family: Calistoga;
+  text-align: center;
+}
+
+h3
+{
+  color:#74342b;
+  font-size: 20px;
+  font-family: Calistoga;
+  background-color: #ffdde1;
+  padding: 10px 10px;
+  border-radius: 200px;
+  opacity: 0.9; 
+}
+
+p
+{
+  color:#74342b;
+  font-size: 30px;
+  font-family: Calistoga;
+  text-align: center;
+  border-radius: 20px;
+  margin: 2px;
+}
+
